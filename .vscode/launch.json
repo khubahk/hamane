@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open Find A Kinder Program Point Cook.html",
+            "file": "e:\\Flutter\\splash_login\\iseng\\Find A Kinder Program Point Cook.html"
+        }
+    ]
+}

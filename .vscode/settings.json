@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/401e9b24-6c4e-4488-b048-935f2b6d06d1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/hamane",
+    "appService.deploySubpath": "."
+}

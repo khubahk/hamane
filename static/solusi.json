@@ -1,0 +1,194 @@
+{
+  "solusi": {
+    "hama": [
+      {
+        "id": "bacterial_leaf_blight",
+        "namaHama": "Bacterial Leaf Blight (Penyakit Hawar Daun / Kresek)",
+        "metode": [
+          {
+            "nama": "Pratanam",
+            "tahapan": [
+              "Sanitasi tanaman inang",
+              "Sanitasi tanaman inang"
+            ]
+          },
+          {
+            "nama": "Persemaian",
+            "tahapan": [
+              "Penggunaan benih sehat",
+              "Sanitasi inang pada saluran irigasi",
+              "Hindari penggenangan terlalu dalam"
+            ]
+          },
+          {
+            "nama": "Tanaman Muda",
+            "tahapan": [
+              "Pemupukan berimbang sesuai anjuran setempat",
+              "Sanitasi rerumputan sumber patogen",
+              "Pengeringan lahan secara berkala, yaitu 1 hari diairi dan 3-4 hari dikeringkan, terutama pada daerah endemik serangan penyakit"
+            ]
+          },
+          {
+            "nama": "Pengendalian HDB dengan Bakteri Antagonis CorynebacteriumSp.",
+            "tahapan": [
+              "Dengan aplikasi sebanyak 3 kali (Perlakuan benih, 28 HST, 42 HST). Dosis 5 cc per liter, kepadatan populasi bakteri 106 cfu/cc dicapai tingkat penghambatan sebesar mencapai 90.6 %. Pemanfaatan agens ini dapat menghambat kemunculan awal penyakit HDB dan selanjutnya menghambat perkembangan infeksinya."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bacterial_leaf_streak",
+        "namaHama": "Bacterial Leaf Streak (Bakteri Daun Bergaris)",
+        "metode": [
+          {
+            "nama": "Cara pengendalian",
+            "tahapan": [
+              "Buang atau hancurkan tunggul-tunggul dan jerami-jerami yang terinfeksi/sakit",
+              "Pastikan jerami dari tanaman sakit sudah terdekomposisi sempurna sebelum tanam pindah.",
+              "Gunakan benih atau bibit yang bebas dari penyakit bakteri daun bergaris",
+              "Gunakan pupuk nitrogen sesuai anjuran",
+              "Atur jarak tanam tidak terlalu rapat",
+              "Berakan tanah sesudah panen"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bacterial_panicle_blight",
+        "namaHama": "Bacterial Panicle Blight (Penyakit Hawar Malai)",
+        "metode": [
+          {
+            "nama": "Pengendalian Kimia",
+            "tahapan": [
+              "Meningkatkan varietas tahan penyakit-mungkin menjadi pilihan terbaik, tetapi hanya sebagian varietas tahan saat ini tersedia dan tidak memiliki karakteristik komersial yang diinginkan",
+              "Asam Oxolinic dapat digunakan dalam perlakuan benih atau aplikasi daun, dan merupakan satu-satunya bahan kimia yang dapat mengontrol bakteri ini."
+            ]
+          },
+          {
+            "nama": "Pengendalian Biologi",
+            "tahapan": [
+              "Penyemprotan padi dengan suspensi campuran dari strain virulen B. glumae dan strain avirulen dari B. gladioli hampir sepenuhnya mengendalikan terjadinya penyakit ini.",
+              "Pra perlakuan benih dengan menggunakan strain avirulen dari B. glumae dan B. plantarii yang efektif sebagai metode kontrol biologis."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "blast",
+        "namaHama": "Blast (Penyakit Busuk Leher)",
+        "metode": [
+          {
+            "nama": "Cara pengendalian",
+            "tahapan": [
+              "Melakukan pemupukan dengan pupuk nitrogen dengan dosis yang seimbang dan tidak terlalu tinggi.",
+              "Penanaman yang tidak terlalu rapat.",
+              "Pemakaian jerami sebagai kompos.",
+              "Memperhatikan kebersihan area tanam dengan membersihkan gulma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brown_spot",
+        "namaHama": "Brown Spot (Penyakit Bercak Daun Cokelat)",
+        "metode": [
+          {
+            "nama": "Cara pengendalian",
+            "tahapan": [
+              "Manajemen pupuk yang baik, termasuk penggunaan Kalium sangat dianjurkan untuk menekan penyakit ini dan meningkatkan hasil gabah.",
+              "Perlakuan benih dengan kaptan, thiram, chitosan, carbendazim, atau mancozeb dapat menurunkan infeksi pada bibit.",
+              "Perlakuan benih yang diikuti penyemprotan mancozeb + tricyclazole pada satdium anakan dan bunting, juga dapat menekan penyakit dengan baik.",
+              "Cara-cara bertanam seperti penggunaan pupuk Kalium, penggunaan pupuk posfat, dan menanam varietas genjah sangat direkomendasikan untuk mengatasi penyakit ini.",
+              "Penyemprotan dengan beberapa fungisida seperti benomyl, propiconazole, and carbendazim efektif menekan peyakit ini."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dead_heart",
+        "namaHama": "Dead Heart (Hama Sundep)",
+        "metode": [
+          {
+            "nama": "Pada Daerah Serangan Endemik",
+            "tahapan": [
+              "Pengaturan pola tanam, tanam serentak untuk membatasi sumber makanan bagi penggerek batang padi. Rotasi tanaman padi dengan tanaman bukan padi untuk memutus siklus hidup hama. Pengaturan waktu tanam yaitu berdasarkan penerbangan ngengat atau populasi larva di tunggul padi. Tanam jangan bertepatan dengan puncak penerbangan ngengat. Tanam bisa dilakukan pada 15 hari sesudah puncak penerbangan ngengat generasi pertama dan atau 15 hari sesudah puncak penerbangan ngengat generasi berikutnya apabila generasi penggerek batang padi di lapangan overlap.",
+              "Cara mekanik dapat dilakukan dengan mengumpulkan kelompok telur penggerek batang padi di persemaian dan di pertanaman. Menangkap ngengat dengan light trap (untuk luas 50 ha cukup 1 light trap).",
+              "Cara fisik yaitu dengan penyabitan tanaman serendah mungkin sampai permukaan tanah pada saat panen (disingkal). Usaha itu dapat pula diikuti penggenangan air setinggi 10 cm agar jerami atau pangkal jerami cepat membusuk sehingga larva atau pupa mati.",
+              "Pengendalian Hayati dengan pemanfaatan musuh alami parasitoid dengan melepas parasitoid telur seperti Trichogramma japonicum dengan dosis 20 pias/ha (1 pias = 2000-2500 telur terparasit) sejak awal pertanaman.",
+              "Penggunaan insektisida dapat dilakukan bila sudah ditemukan 1 ekor ngengat pada light trap atau pertanaman, dan aplikasi insektisida sebaiknya dilakukan pada saat 4 hari setelah ditemukan 1 ekor ngengat pada light trap atau pertanaman tersebut.",
+              "Hal-hal yang harus diperhatikan dalam aplikasi insektisida adalah: keringkan pertanaman sebelum aplikasi, aplikasi saat air embun tidak ada yaitu sekitar jam 8 -11 atau dilanjutkan pada sore hari ketika angin sudah tidak kencang, tepat dosis, tepat jenis, dan tepat air pelarut (sekitar 350-500 liter air/ha)."
+            ]
+          },
+          {
+            "nama": "Pada Daerah Serangan Spodarik",
+            "tahapan": [
+              "Cara pengendalian selain menggunakan insektisida yang dapat diterapkan sesuai dengan keadaan setempat.",
+              "Penyemprotan dengan insektisida.",
+              "Apabila sudah ditemukan 1 ekor ngengat pada light trap atau pertanaman, dan aplikasi insektisida sebaiknya dilakukan pada saat 4 hari setelah ditemukan 1 ekor ngengat pada light trap atau pertanaman tersebut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "downy_mildew",
+        "namaHama": "Downey Mildew (Penyakit Bulai)",
+        "metode": [
+          {
+            "nama": "Cara pengendalian",
+            "tahapan": [
+              "Tanam varietas padi yang tahan bulai.",
+              "Tidak menanam benih padi yang berasal dari tanaman sakit.",
+              "Tanam padi secara serempak pada awal sampai akhir musim kemarau. Penanaman jagung pada peralihan musim akan menderita kerugian besar karena bulai.",
+              "Perlakukan benih dengan fungisida sistemik seperti Ridomil 35 SD ,(5 g formulasi/kg benih Ridomil mengandung bahan aktif metalaksil 35%)",
+              "Hand sprayer yang telah berisi air biasa dan fungisida di semprotkan pada tanaman dan lahannya pada jam 04.00 s/d 05.30 pagi, mulai tanaman berumur 7 s/d 21 hari setelah tanam."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hispa",
+        "namaHama": "Hispa",
+        "metode": [
+          {
+            "nama": "Pengendalian Hayati",
+            "tahapan": [
+              "Pengendalian hayati terhadap hama ini masih dalam penelitian. larva parasitoid, Eulophus femoralis telah diperkenalkan di Bangladesh dan India dan dapat mengurangi masalah hispa didaerah itu. Konservasi musuh alami asli juga dapat memainkan peran penting dalam pengendalian hama ini. Sebagai contoh, ada tawon kecil yang menyerang telur dan larva, dan serangga reduviid yang memakan serangga dewasa. Ada juga tiga patogen jamur yang menyerang serangga dewasa."
+            ]
+          },
+          {
+            "nama": "Pengendalian Kimiawi",
+            "tahapan": [
+              "Dalam kasus serangan yang parah, beberapa formulasi kimia yang mengandung bahan aktif berikut dapat digunakan untuk mengendalikan populasi : klorpirifos, malation, spermetrin, fentoat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tungro",
+        "namaHama": "Tungro",
+        "metode": [
+          {
+            "nama": "Cara pengendalian",
+            "tahapan": [
+              "Pola tanam serempak akan memutus siklus hidup vektor dan dapat memperpendek waktu keberadaan sumber inoculum. Untuk mengurangi serangan penyakit tungro, dianjurkan tanam serempak minimal pada luasan 40 ha.",
+              "Waktu tanam tepat diidentifikasi berdasarkan pola fluktuasi populasi wreng hijau, keberadaan virus tungro dan iklim terutama curah hujan.  Fase pertumbuhan tanaman padi peka terhadap serangan tungro adalah pada saat tanaman berumur kurang dari 45 hari, tanaman padi yang berumur kurang dari 45 hari setelah tanam sangat terancam oleh serangan tungro. Dengan demikian waktu tanam yang tepat adalah 30-45 hari sebelum puncak curah hujan. Waktu tanam tepat hanya efektif mengendalikan penyakit tungro di daerah dengan pola tanam serempak.",
+              "Varietas tahan wereng hijau digolongkan menjadi golongan T0-T4. Varietas yang tergolong dalam golongan T0 tidak memiliki gen tahan. Termasuk dalam golongan T0 adalah varietas-varietas IR5, Pelita, Atomita, Cisadane, Cikapundung, dan Lusi. Varietas yang tergolong T1 memiliki gen tahan Glh 1. Termasuk dalam golongan T1 adalah varietas-varietas IR20, IR30, IR26, IR46, Citarum, dan Serayu. Varietas yang tergolong dalam golongan T2 memiliki gen tahan Glh 6. Termasuk dalam golongan ini adalah varietas-varietas IR32, IR38, IR36, IR47, Semeru, Asahan, Ciliwung, Krueng Aceh dan Bengawan Solo. Sedang varietas yang termasuk dalam golongan T3 memiliki gen tahan Glh 5. Termasuk dalam golongan ini adalah IR50, IR48, IR54, IR52 dan IR64. Varietas yang termasuk dalam golongan T4 memiliki gen tahan glh4. yang termasuk dalam golongan ini adalah IR66,IR70, IR72,IR68, Barumun, dan Klara.",
+              "Beberapa jenis inang tungro dari jenis rerumputan  adalah Jajagoan  (Echinochloa crusgali), rumput bebek atau tuton  (Echinochloa colonum), rumput belulang (Eleusine indica), tapak jalak (Dactyloctenium aegyptium), dan padi liar. Eradikasi sumber inokulum pada tahap pratanam sangat penting untuk menekan sumber inoculum primer dan menghindari infeksi awal virus tungro. Oleh karena itu sangat tidak bijaksana apabila turiang dari sisa-sisa tanaman terserang dibiarkan dalam waktu lama karena akan menjadi sumber penularan pada pertanaman berikutnya terutama pada pola tanam tidak serempak.",
+              "Penggunaan insektisida organik sebaiknya  berdasarkan pengamatan populasi wereng hijau. Diteksi ancaman penyakit tungro dapat dilakukan pada waktu pesemaian dan saat tanaman berumur sekitar tiga minggu setelah tanam.  Pengamatan wereng hijau di pesemaian dilakukan dengan jaring serangga sebanyak 10 ayunan untuk mengevaluasi kerapatan populasi wereng hijau.  Pada daerah dengan pola tanam serempak, penggunaan insektisida sistemik butiran dan insektisida berbahan aktif Imidakloprid, tiametoksan  dan MIPC melalui penyemprotan pada pesemaian dan pertanaman dapat menghambat penularan tungro oleh vector."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "normal",
+        "namaHama": "Normal",
+        "metode": [
+          {
+            "nama": "",
+            "tahapan": []
+          }
+        ]
+      }
+    ]
+  }
+}

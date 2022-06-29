@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Hamane</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename='assets/img/hamaneicon.png')}}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='https://stackpath.bootstrap.com/bootstrap/4.1.2/css/bootstrap.min.css')}}"
+    integrity="sha384-Smlep5jCw/wGhdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static', filename='assets/css/style.css')}}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <div class="logo me-auto">
+        <a href="#home"><img src="{{ url_for('static', filename='assets/img/logo_hamane.png')}}"></a>
+      </div>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#profil">Profil</a></li>
+          <li><a class="nav-link scrollto" href="#informasi">Informasi Penyakit</a></li>
+          <li><a class="nav-link scrollto" href="#team">Tim</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= home Section ======= -->
+  <section id="home" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <div class="opening_word">Halo petani muda, selamat datang di Hamane</div>
+          <div class="opening_word1">Deteksi dini penyakit tanaman padimu</div>
+          <div class="opening_word2">Silahkan unggah gambar penyakit tanaman padimu</div>
+          <!-- ditambah -->
+          <div class="button d-flex justify-content-center justify-content-lg-start">
+            <form method="post" action="/hasil" enctype="multipart/form-data">
+              <input id="upload" type="file" name="file" onchange="submit()" />
+            </form>
+            <label for="upload" class="btn-upload">Unggah Gambar</label>
+
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 home-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{{ url_for('static', filename='assets/img/padi.png')}}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End home -->
+
+  <main id="main">
+
+    <!-- ======= Supported Section ======= -->
+    <section id="Supported" class="Supported section-bg">
+      <div class="container">
+        <div class="support_by">Supported by:</div>
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/Kampus Merdeka.png')}}" class="img-fluid"
+              alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/logo_orbit.png')}}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/logo_unikom_kuning.png')}}" class="img-fluid"
+              alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/logo_umcirebon.png')}}" class="img-fluid"
+              alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/logo_siber.png')}}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{{ url_for('static', filename='assets/img/clients/logo_ugm.png')}}" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="profil" class="profil">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Profil</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- Profil Section -->
+
+    <!-- ======= Informasi Section ======= -->
+    <section id="informasi" class="informasi section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Informasi Gejala Penyakit</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="row content justify-content-center">
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}" alt="">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <div class="inner">
+                <img class="card-img-top" src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  alt="Card image cap">
+              </div>
+              <div class="card-body text-center">
+                <h4><a href="card-title">Lorem Ipsum</a></h4>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <a href="#" class="btn btn-primary">Learn More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Tim Kami</h2>
+          <p>
+
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="{{ url_for('static', filename='assets/img/team/andika.jpg')}}"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Muhammad Andika Pratama</h4>
+                <span>Ketua | Kelas Kangae</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href="https://www.instagram.com/m_andika27/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/andikapratama27/"><i class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""> <i class="ri-github-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="{{ url_for('static', filename='assets/img/team/reyhan.jpeg')}}"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Reyhan Alfiandy Perkasa</h4>
+                <span>Anggota | Kelas Kangae</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href="https://www.instagram.com/alfiandy.rey/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/reyhan-alfiandy-perkasa-430049194/"><i
+                      class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://github.com/reyzfan"><i class="ri-github-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="{{ url_for('static', filename='assets/img/team/khubah.jpeg')}}"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Khubah Khoirurobiq</h4>
+                <span>Anggota | Kelas Kangae</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href="https://www.instagram.com/khubahk/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/khubah-khoirurobiq-361b134a/"><i
+                      class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""> <i class="ri-github-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="{{ url_for('static', filename='assets/img/team/depri.jpeg')}}"
+                  class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Depriansyah Syahruly</h4>
+                <span>Anggota | Kelas Fibonaci</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.instagram.com/depriansyahs/"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/depriansyah-syahruly-2b1b63129/"><i
+                      class="ri-linkedin-box-fill"></i> </a>
+                  <a href=""> <i class="ri-github-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kontak</h2>
+          <p>Silahkan hubungi kami dibawah ini.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Lokasi:</h4>
+                <p>Jalan Pajajaran, Kota Bandung, Jawa Barat, Indonesia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>hamaneid@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telepon:</h4>
+                <p>+689695095539</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.860581408814!2d107.59726522537531!3d-6.907269753536805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e638a7f08167%3A0x64e8cf1ef376ab76!2sGOR%20Pajajaran!5e0!3m2!1sid!2sid!4v1655098230187!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nama Kamu</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Email Kamu</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subjek</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Pesan</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Mohon tunggu</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Pesan mu telah terkirim. Terima Kasih!</div>
+              </div>
+              <div class="text-center"><button type="submit">Kirim Pesan</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Hamane</h3>
+            <p>
+              Jalan. Pajajaran <br>
+              Kota Bandung, Jawa Barat<br>
+              Indonesia<br><br>
+              <strong>Telepon/Hp:</strong> +6289695095539<br>
+              <strong>Email:</strong> hamaneid@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Link Tautan</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#profil">Profil</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#informasi">Informasi Penyakit</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Tim Kami</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Media Sosial Kami</h4>
+            <p>Silahkan hubungi melalui media sosia kami</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/hamane.id/"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hamane</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+</body>
+
+</html>
